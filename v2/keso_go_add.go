@@ -6,6 +6,7 @@ import (
 	"golang.org/x/exp/constraints"
 )
 
+// Number is a common interface for float and integer number types
 type Number interface {
 	constraints.Float | constraints.Integer
 }
