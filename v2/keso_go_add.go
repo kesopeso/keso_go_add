@@ -14,6 +14,7 @@ type Number interface {
 //
 // It takes two numbers as input parameters.
 // You can learn more about addition mathematical function [HERE],
+//
 // [HERE]: https://www.mathsisfun.com/numbers/addition.html
 func Add[T Number](a, b T) T {
 	return a + b
